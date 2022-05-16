@@ -37,9 +37,9 @@
     text-transform: uppercase;
     display: inline-block;
     font-size: 14px;
+    transition-duration: 0.3s;
 }
 
 .button:hover{
     background: #741BBA;
-    box-shadow: 0 0 5px 0 #741BBA;
 }

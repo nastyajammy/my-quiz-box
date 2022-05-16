@@ -37,6 +37,7 @@
 
 .offers__content{
     padding: 27px 20px;
+    padding-right: 40px;
     color: #303030;
     flex: 1;
     display: flex;
@@ -79,7 +80,7 @@
 
 .offers__text{
     font-size: 14px;
-    margin-bottom: 43px;
+    margin-bottom: 30px;
     margin-top: 25px;
 }
 
@@ -99,6 +100,7 @@
     text-transform: uppercase;
     font-weight: bold;
     margin-top: auto;
+    transition-duration: 0.3s;
 }
 
 .button__light:hover{

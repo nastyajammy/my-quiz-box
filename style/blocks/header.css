@@ -9,10 +9,13 @@
 .header__col{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 63%;
 }
 
 .header__col--align-right{
     justify-content: flex-end;
+    width: 37%;
 }
 
 .logo__img{
@@ -43,6 +46,7 @@
 .menu__link{
     font-size: 16px;
     text-decoration: none;
+    transition-duration: 0.3s;
 }
 
 .menu__link:hover{
@@ -58,6 +62,7 @@ color:#8F00FF;
     text-decoration: none;
     font-size: 26px;
     margin-bottom: 4px;
+    transition-duration: 0.3s;
 }
 
 .contacts__phone:hover{
@@ -67,5 +72,65 @@ color:#8F00FF;
 .contacts__info{
     font-size: 13px;
     text-decoration: underline;
-    margin-top: -7px;
+    opacity: 0.6;
+}
+
+.contacts__info-wrap{
+    position: relative;
+}
+
+.contacts__info:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.dropdown{
+    padding: 13px 19px 13px 19px;
+    background: #EDEDED;
+    opacity: 0.8;
+    border-radius: 6px;
+    color: #1E1F20;
+    font-weight: normal;
+    position: absolute;
+    left: -9999px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.dropdown__days{
+    text-align: left;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.dropdown__time{
+    text-align: left;
+    font-size: 13px;
+}
+
+.dropdown:after{
+    content: " ";
+    position: absolute;
+    border: 10px solid transparent;
+    border-bottom-color: #EDEDED;
+    border-top-width: 0;
+    top: -10px;
+    right: 50px;
+}
+
+.contacts__info-wrap:hover .dropdown{
+    left: 20px;
+    right: 0px;
+    top: 140%;
+    opacity: 1;
+}
+
+.dropdown:before{
+content: " ";
+height: 15px;
+width: 100%;
+position: absolute;
+top: -15px;
+left: 0;
 }

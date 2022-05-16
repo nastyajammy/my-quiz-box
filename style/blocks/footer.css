@@ -21,16 +21,18 @@
 .footer__col{
     display: flex;
     align-items: center;
+    width: 60%;
 }
 
 .footer__col--align-right{
     justify-content: flex-end;
+    width: 40%;
 }
 
 .footer__logo{
     width: 160px;
     height: 35px;
-    margin-right: 120px;
+    margin-right: 125px;
 }
 
 .social{
@@ -41,7 +43,7 @@
 .social__item{
     display: inline-block;
     vertical-align: middle;
-    margin-right: 10px;
+    margin-right: 6px;
 }
 
 .social__item:last-child{
@@ -57,35 +59,35 @@
 }
 
 .social__item--telegram .social__link{
-    background-image: url(../../image/social/telegram.png);
+    background: url(../../image/icons/css_sprites.png) -122px -10px;
 }
 
 .social__item--telegram .social__link:hover{
-    background-image: url(../../image/social/telegram_hover.png);
+    background: url(../../image/icons/css_sprites.png) -122px -66px;
 }
 
 .social__item--vk .social__link{
-    background-image: url(../../image/social/vk.png);
+    background: url(../../image/icons/css_sprites.png) -10px -122px;
 }
 
 .social__item--vk .social__link:hover{
-    background-image: url(../../image/social/vk_hover.png);
+    background: url(../../image/icons/css_sprites.png) -66px -122px;
 }
 
 .social__item--facebook .social__link{
-    background-image: url(../../image/social/fb.png);
+    background: url(../../image/icons/css_sprites.png) -10px -10px;
 }
 
 .social__item--facebook .social__link:hover{
-    background-image: url(../../image/social/fb_hover.png);
+    background: url(../../image/icons/css_sprites.png) -66px -10px;
 }
 
 .social__item--instagram .social__link{
-    background-image: url(../../image/social/inst.png);
+    background: url(../../image/icons/css_sprites.png) -10px -66px;
 }
 
 .social__item--instagram .social__link:hover{
-    background-image: url(../../image/social/inst_hover.png);
+    background: url(../../image/icons/css_sprites.png) -66px -66px;
 }
 
 .contacts__call{

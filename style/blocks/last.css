@@ -87,6 +87,7 @@ align-items: center;
     text-decoration: none;
     font-weight: bold;
     line-height: 32px;
+    transition-duration: 0.3s;
 }
 
 .pagination__item--active .pagination__item--item{
@@ -95,4 +96,5 @@ align-items: center;
 
 .pagination__item--item:hover{
     background: #741BBA;
+    cursor: pointer;
 }

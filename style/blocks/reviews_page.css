@@ -1,0 +1,204 @@
+/* секция отзывов */
+
+.page__content--reviews{
+    margin-bottom: -15px;
+}
+
+.reviews{
+    column-count: 2;
+    column-gap: 30px;
+    margin-bottom: 60px;
+}
+
+.review{
+    display: inline-flex;
+    flex-direction: column;
+    padding: 50px 30px;
+    background: #F4F5F5;
+    border-radius: 6px;
+}
+
+.reviews__item{
+   margin-bottom: 20px;
+}
+
+.review__header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.review__user{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 11px;
+    color: #1A1B1E;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+.review__user:hover{
+    color: #2E77A4;
+    text-decoration: underline;
+}
+
+.review__user::after{
+    content: url(../../image/icons/vk-blue.png);
+    height: 29px;
+}
+
+.review__userdata{
+margin-left: 23px;
+}
+
+.review__tags{
+    display: flex;
+    align-items: flex-start;
+}
+
+.tag{
+    font-size: 13px;
+    color: #303030;
+    padding: 8px 16px;
+    border-radius: 50px;
+    background: #E7E7E7;
+}
+
+.tag--bg--green{
+background: #B9EAE4;
+}
+
+.review__title{
+    font-size: 30px;
+    color: #1A1B1E;
+    font-weight: bold;
+    margin-bottom: 23px;
+}
+
+.review__content-text{
+    margin-bottom: 50px;
+}
+
+.review__date{
+    font-size: 14px;
+    font-weight: 600;
+    color: #1A1B1E;
+}
+
+/* разделитель */
+
+.separator{
+    background: #17191C url(../../image/separator.png) right 4% bottom no-repeat;
+    min-height: 363px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.separator__title{
+    color: #fff;
+    font-size: 48px;
+    line-height: 1.1;
+    font-weight: bold;
+}
+
+.separator__content{
+    max-width: 35%;
+}
+
+/* секция с отправкой отзыва */
+
+.inner-section__reviews{
+    padding: 60px 0px;
+}
+
+.form__row{
+    display: flex;
+    margin-bottom: 30px;
+
+}
+
+.form__input{
+    flex: 1;
+    margin-right: 30px;
+    border-radius: 6px;
+    border: none;
+    background: #fff;
+    padding: 22px 30px;
+    font-size: 18px;
+    color: #1A1B1E;
+}
+
+.form__input::placeholder{
+    color: #666;
+}
+
+.form__input:last-child{
+    margin-right: 0px;
+}
+
+.form__input--textarea{
+    height: 230px;
+}
+
+.form__controls{
+    display: flex;
+    margin-top: -10px;
+    margin-bottom: 35px;
+}
+
+.form__controls-title{
+    width: 39%; 
+    font-size: 18px;
+    color: #1A1B1E;
+    margin-top: 10px;
+}
+
+.controls{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.controls__item{
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.controls__elem{
+    cursor: pointer;
+}
+
+.controls__checkbox:checked ~ .controls__tag{
+    background: #B9EAE4;
+}
+
+.controls__checkbox{
+    display: none;
+}
+
+.form__buttons{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button--color--black{
+    background: #8E8E8E;
+    border: none;
+    transition-duration: 0.3s;
+}
+
+.button--color--black:hover{
+    background: #2B2B2B;
+    border: none; 
+}
+
+.form__button{
+    margin-right: 20px;
+}
+
+.form__button:last-child{
+    margin-right: 0;
+}

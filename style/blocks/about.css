@@ -60,6 +60,7 @@ padding: 18px 38px;
 font-size: 14px;
 text-transform: uppercase;
 font-weight: bold;
+transition-duration: 0.3s;
 }
 
 .button__transparent:hover{

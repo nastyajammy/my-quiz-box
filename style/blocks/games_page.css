@@ -1,6 +1,6 @@
 .top-line{
     background: url(../../image/background/background1.png) right center no-repeat;
-    min-height: 412px;
+    min-height: 415px;
     background-color:#17191C;
     background-blend-mode: luminosity;
     display: flex;
@@ -65,6 +65,7 @@
 .game{
     display: flex;
     text-decoration: none;
+    transition-duration: 0.3s;
 }
 
 .game:hover{
@@ -119,6 +120,10 @@
     color: #000;
 }
 
+.pagination__item--item{
+    transition-duration: 0.3s;
+}
+
 .pagination--theme-dark .pagination__item--active .pagination__item--item{
 color: #fff;
 }
@@ -157,6 +162,7 @@ color: #fff;
     justify-content: center;
     margin-bottom: 25px;
     filter: grayscale(100%);
+    transition-duration: 0.3s;
 }
 
 .partners__link:hover{
@@ -166,8 +172,8 @@ color: #fff;
 /* Футер */
 
 .inner-footer__container{
-    padding: 45px 0;
-    height: 132px;
+    padding: 50px 0;
+    height: 130px;
 }
 
 .inner-footer{
