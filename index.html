@@ -17,7 +17,7 @@
         <div class="container  container__hello">
             <header class="header">
                 <div class="header__col">
-                    <a href="/" class="logo">
+                    <a href="./index.html" class="logo">
                         <img src="./image/logo/logo.png" alt="logo company" class="logo__img">
                     </a>
                     <nav class="menu">
@@ -29,15 +29,24 @@
                                 <a href="./games.html" class="menu__link">Игры</a>
                             </li>
                             <li class="menu__item">
-                                <a href="#" class="menu__link">Отзывы</a>
+                                <a href="./reviews.html" class="menu__link">Отзывы</a>
                             </li>
                         </ul>
                     </nav>
                 </div>
                 <div class="header__col header__col--align-right">
                     <address class="contacts">
+                        <div class="contacts__phone-wrap">
                         <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-                        <div class="contacts__info">График работы</div>
+                        </div>
+                        <!-- выпадающее меню -->
+                        <div class="contacts__info-wrap">
+                            <a class="contacts__info">График работы</a>
+                            <div class="contacts__menu dropdown">
+                                <div class="dropdown__days">пн-вс: 09:00 - 20:00</div>
+                                <div class="dropdown__time">Обед: 14:00-14:30</div>
+                            </div>
+                        </div>
                     </address>
                 </div>
             </header>
@@ -91,7 +100,8 @@
                                             </li>
                                         </ul>
                                    <p class="offers__text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</p>
-                                   <a href="#" class="button__light button__light--active">Смотреть</a>
+                                   <a href="#" class="button__light">Смотреть</a>
+                                   <!-- Активная кпопка с селектором button__light--active -->
                                 </div>
                             </li>
                             <li class="offers__item">
@@ -198,7 +208,7 @@
                                         <a href="./games.html" class="menu__link">Игры</a>
                                     </li>
                                     <li class="menu__item">
-                                        <a href="#" class="menu__link">Отзывы</a>
+                                        <a href="./reviews.html" class="menu__link">Отзывы</a>
                                     </li>
                                 </ul>
                             </nav>
