@@ -44,9 +44,13 @@
     text-decoration: underline;
 }
 
-.review__user::after{
-    content: url(../../image/icons/vk-blue.png);
-    height: 29px;
+.review__user:after{
+    content: "";
+    background: url(../../image/icons/css_sprites.png) -122px -122px;
+    height: 30px;
+    width: 30px;
+    margin-left: 8px;
+
 }
 
 .review__userdata{
